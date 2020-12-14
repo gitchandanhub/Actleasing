@@ -1,3 +1,52 @@
-02/12/2020 18:39:38 devpinoyLogger Username Entered [[ChromeDriver: chrome on WINDOWS (4edf043cda337eea6796fcb86e20d111)] -> name: email]
-02/12/2020 18:39:42 devpinoyLogger Password Entered Welcome@2020
-02/12/2020 18:39:46 devpinoyLogger Login button clicked
+15/12/2020 00:15:18 devpinoyLogger Username Entered [[ChromeDriver: chrome on WINDOWS (b73b10427cb66309e25429069ccfb372)] -> name: email]
+15/12/2020 00:15:22 devpinoyLogger Password Entered Welcome@2020
+15/12/2020 00:15:26 devpinoyLogger Login button clicked
+15/12/2020 00:15:31 devpinoyLogger Quotation Tab clicked
+15/12/2020 00:15:32 devpinoyLogger Quotation Selection options opened
+15/12/2020 00:15:33 devpinoyLogger Single Quote Option Selected
+15/12/2020 00:15:35 devpinoyLogger Create Single Quote form is opened
+15/12/2020 00:15:36 devpinoyLogger Salesperson option opened
+15/12/2020 00:15:37 devpinoyLogger Salesperson Admin is Selected from options
+15/12/2020 00:15:39 devpinoyLogger Customer Number Is Entered
+15/12/2020 00:15:42 devpinoyLogger Customer Name is enteredYogiAutomationTest_I
+15/12/2020 00:15:43 devpinoyLogger Customer Address is added
+15/12/2020 00:15:44 devpinoyLogger Customer Address2 is added
+15/12/2020 00:15:46 devpinoyLogger Customer City is added
+15/12/2020 00:15:47 devpinoyLogger State options is opened
+15/12/2020 00:15:48 devpinoyLogger Customer state is selected 
+15/12/2020 00:15:49 devpinoyLogger Customer Zip is added
+15/12/2020 00:15:50 devpinoyLogger Customer Contact name  is added
+15/12/2020 00:15:52 devpinoyLogger Customer Email  is added
+15/12/2020 00:15:53 devpinoyLogger Customer Cell Number  is added
+15/12/2020 00:15:54 devpinoyLogger Customer DelAcqDate  is added
+15/12/2020 00:15:55 devpinoyLogger Lease type options opened
+15/12/2020 00:15:57 devpinoyLogger Maintenance Type CD is selected
+15/12/2020 00:15:58 devpinoyLogger Customer Term options opened 
+15/12/2020 00:16:00 devpinoyLogger Customer Term 72 is selected
+15/12/2020 00:16:01 devpinoyLogger Sales Tax states options are opened
+15/12/2020 00:16:02 devpinoyLogger Sales Tax states is selected
+15/12/2020 00:16:04 devpinoyLogger Sales Tax Rate is Added as $50
+15/12/2020 00:16:05 devpinoyLogger Vehicle year is opened 
+15/12/2020 00:16:06 devpinoyLogger Vehicle year 2017 is selected
+15/12/2020 00:16:07 devpinoyLogger Vehicle Make options opened
+15/12/2020 00:16:08 devpinoyLogger Vehicle Make Chevrolet is selected
+15/12/2020 00:16:09 devpinoyLogger Vehicle model options opened
+15/12/2020 00:16:10 devpinoyLogger Vehicle model cruze is selected
+15/12/2020 00:16:12 devpinoyLogger Vehicle New/Used options opened
+15/12/2020 00:16:13 devpinoyLogger Vehicle Used options is selected
+15/12/2020 00:16:14 devpinoyLogger Vehicle color options opened
+15/12/2020 00:16:15 devpinoyLogger Vehicle black color is selected
+15/12/2020 00:16:16 devpinoyLogger Vehicle interior color options opened
+15/12/2020 00:16:17 devpinoyLogger Vehicle Red Interior color is selected
+15/12/2020 00:16:18 devpinoyLogger Vehicle Order Type options opened
+15/12/2020 00:16:20 devpinoyLogger Vehicle state options opened
+15/12/2020 00:16:21 devpinoyLogger Vehicle state WY is selected
+15/12/2020 00:16:22 devpinoyLogger Vehicle Plate Type options opened
+15/12/2020 00:16:23 devpinoyLogger Vehicle plate type  is selected
+15/12/2020 00:16:24 devpinoyLogger Factory MSRP is added $20000
+15/12/2020 00:16:25 devpinoyLogger Additional MSRP is added $200
+15/12/2020 00:16:27 devpinoyLogger Dealer Cost is added $20100
+15/12/2020 00:16:28 devpinoyLogger Bank Fee is added $10
+15/12/2020 00:16:29 devpinoyLogger Residual Value is added $200
+15/12/2020 00:16:31 devpinoyLogger Customer custom Note is Added 
+15/12/2020 00:16:36 devpinoyLogger Single Quote is Successfully created and Saved 

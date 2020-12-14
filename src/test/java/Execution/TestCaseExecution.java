@@ -7,13 +7,14 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import BaseDriver.AppDriver;
 
-import Pages.Createsinglequote1;
+
 import Pages.Login;
 import Pages.Approvesinglequote;
 import Pages.Converttoleasesinglequote;
 import Pages.Createmultiplequotefordifferentvehicle;
+
 import Pages.Leasetabs;
-import Pages.Assets;
+
 
 @Listeners(Listen.TestNG_Listeners.class)
 
@@ -37,32 +38,57 @@ public class TestCaseExecution extends AppDriver
     }	
 	
 	
-//@Test(enabled = true)
-	
-	public void test() throws InterruptedException
+	//@Test
+	public void Tabasset() throws InterruptedException
     {
-     Pages.test  lpobj = new Pages.test();
-    
-     lpobj.clickonQuotationTab();
-    
+		
+		Pages.Tabasset lpobj = new Pages.Tabasset();
+		
+		
+		lpobj.openassettab();
+		lpobj.openlatestasset(null);
+		lpobj.customCFvaule1(null);
+		lpobj.customCFvaule2(null);
+		lpobj.customCFvaule3(null);
+		
+		lpobj.OwnernameROI(null);
+		lpobj.OwneremailROI(null);
+		lpobj.Owneradd1ROI(null);
+		lpobj.Owneradd2ROI(null);
+		lpobj.OwnercityROI(null);
+		lpobj.OwnerstateoptionROI(null);
+		
+		lpobj.OwnerzipROI(null);
+		
+		
+		lpobj.Saveassetvehform(null);
+		
+		lpobj.OpenassetRegtab(null);
+		lpobj.Addtitlenumber(null);
+		lpobj.Titlestateoptions(null);
+		lpobj.Selecttitlestate(null);
+		lpobj.Addpaperelec(null);
+		lpobj.SaveAssetRegform(null);
+		
+		lpobj.Showlistasset(null);
+		
     }
 	
 	
 	
-	
-	@Test(enabled = true)
-	
-	public void CreateSingleQuote1() throws InterruptedException
+	@Test
+
+	public void singlequote() throws InterruptedException
     {
-    Createsinglequote1  lpobj = new Createsinglequote1();
+		Pages.singlequote  lpobj = new Pages.singlequote();
+	
+    lpobj.OpenQuotationtab();
+    lpobj.Quotetypeselection();
+    lpobj.Selectsinglequote();
+    lpobj.SubmitSinglequote();
+    lpobj.Salespersonoptions();
     
-    Thread.sleep(7000);
-    lpobj.OpenQuotationtab(null);
-    lpobj.Quotetypeselection(null);
-    lpobj.Selectsinglequote(null);
-    lpobj.SubmitSinglequote(null);
-    lpobj.Salespersonoptions(null);
-  //Customer Data
+//Customer Data
     
     lpobj.Selectsalespersonasadmin(null);
     lpobj.EnterCustomerNumber(config.getProperty("CusotmerNumber"));;
@@ -131,9 +157,13 @@ public class TestCaseExecution extends AppDriver
     
     //Save Single Quote
     
-    lpobj.savesinglequote(null);
- 
-    }	
+    lpobj.savesinglequote();
+    
+    
+    
+    }
+	
+	
 	
 	
 	
@@ -167,13 +197,14 @@ public class TestCaseExecution extends AppDriver
   		
       }
   	
-  	@Test(enabled=false)
+  	//@Test(enabled=true)
 		
-  	public void Leasetabs() throws InterruptedException
+  	public void TabLease() throws InterruptedException
      {
-  		Leasetabs lpobj = new Leasetabs();
+  		Pages.TabLease lpobj = new Pages.TabLease();
   		Thread.sleep(4000);
-  		lpobj.SelectLeasetab(null);
+  		lpobj.leasetab();
+  		
   		lpobj.Openlatestlease(null);
   		lpobj.Openleaseaccountingsheet(null);
   		lpobj.Openleasebanksheet(null);
@@ -209,39 +240,7 @@ public class TestCaseExecution extends AppDriver
   		
       }
   	
-	//@Test
 	
-  	public void Assets() throws InterruptedException
-     {
-		Assets lpobj = new Assets();
-     
-		lpobj.OpenAssettab1();		
-		lpobj.openlatestasset(null);
-		lpobj.customCFvaule1(null);
-		lpobj.customCFvaule2(null);
-		lpobj.customCFvaule3(null);
-		
-		lpobj.OwnernameROI(null);
-		lpobj.OwneremailROI(null);
-		lpobj.Owneradd1ROI(null);
-		lpobj.Owneradd2ROI(null);
-		lpobj.OwnercityROI(null);
-		lpobj.OwnerstateoptionROI(null);
-		lpobj.SelectownerstateROI(null);
-		lpobj.OwnerzipROI(null);
-		
-		
-		lpobj.Saveassetvehform(null);
-		
-		lpobj.OpenassetRegtab(null);
-		lpobj.Addtitlenumber(null);
-		lpobj.Titlestateoptions(null);
-		lpobj.Selecttitlestate(null);
-		lpobj.Addpaperelec(null);
-		lpobj.SaveAssetRegform(null);
-		
-		lpobj.Showlistasset(null);
-     }
 
 	
 	//@Test

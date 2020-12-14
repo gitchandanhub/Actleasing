@@ -54,16 +54,17 @@ public class Leasetabs extends AppDriver
     @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div/div[1]/div/ol/div[3]/a")  WebElement showlistlease;
   
     
-	
-     public void SelectLeasetab(String SelectLT) throws InterruptedException 
-	
-	{
-	
-    	 Leasetab.click();
+    
+    public void leasetab() throws InterruptedException
+    
+    {
+    	Leasetab.click();
 	     Thread.sleep(2000);
 	     log.info("Clicked on Lease Tab and all lease List are loaded");
-         System.out.println("Clicked on Lease Tab and all lease are loaded");
-	 }
+        System.out.println("Clicked on Lease Tab and all lease are loaded");
+    }
+	
+    
      
      public void Openlatestlease(String openlatestlease) throws InterruptedException 
  	

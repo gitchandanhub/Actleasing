@@ -5,7 +5,8 @@
     <classes>
       <class name="Execution.TestCaseExecution">
         <methods>
-          <include name="CreateSingleQuote1"/>
+          <include name="TabLease"/>
+          <include name="singlequote"/>
           <include name="Initialize"/>
           <include name="close"/>
         </methods>
