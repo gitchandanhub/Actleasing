@@ -9,11 +9,12 @@ import BaseDriver.AppDriver;
 
 
 import Pages.Login;
-import Pages.Approvesinglequote;
-import Pages.Converttoleasesinglequote;
+
+
+
 import Pages.Createmultiplequotefordifferentvehicle;
 
-import Pages.Leasetabs;
+
 
 
 @Listeners(Listen.TestNG_Listeners.class)
@@ -38,7 +39,7 @@ public class TestCaseExecution extends AppDriver
     }	
 	
 	
-	//@Test
+	@Test (priority =1)
 	public void Tabasset() throws InterruptedException
     {
 		
@@ -76,7 +77,7 @@ public class TestCaseExecution extends AppDriver
 	
 	
 	
-	@Test
+	@Test(priority =2)
 
 	public void singlequote() throws InterruptedException
     {
@@ -167,28 +168,31 @@ public class TestCaseExecution extends AppDriver
 	
 	
 	
-  	@Test(enabled =false)
+	
+	
+  	@Test(priority =3)
   	
   	
-  	public void Approvesinglequote() throws InterruptedException
+  	public void  singlequoteapproval() throws InterruptedException
      {
-  		Approvesinglequote lpobj = new Approvesinglequote();
+  	
+  		Pages.singlequoteapproval lpobj = new Pages.singlequoteapproval();
   		
-  		
-  		lpobj.OpenQuotationtab(null);
+  		lpobj.SwitchQuotaiontab();
   		lpobj.Clickactiveprospecttab(null);
   		lpobj.Editsinglequote(null);
   		lpobj.Approvesinglequotation(null);
+  		
 		
       }
    		
-  	@Test(enabled=false)
+  	@Test(priority =4)
   		
-  	public void Converttoleasesinglequote() throws InterruptedException
+  	public void singlequoteconverttolead() throws InterruptedException
      {
-  		Converttoleasesinglequote lpobj = new Converttoleasesinglequote();
+  		Pages.singlequoteconverttolead lpobj = new Pages.singlequoteconverttolead();
   		
-  		lpobj.Showlisteditquotescreen(null);
+  		lpobj.quotationtab(null);
   		lpobj.Activeprospectgain(null);
   		lpobj.Editapprovedquote(null);
   		lpobj.Converttoleaseasq(null);
@@ -197,7 +201,7 @@ public class TestCaseExecution extends AppDriver
   		
       }
   	
-  	//@Test(enabled=true)
+  	@Test(priority =5)
 		
   	public void TabLease() throws InterruptedException
      {
@@ -221,14 +225,20 @@ public class TestCaseExecution extends AppDriver
   		lpobj.Uploadinsurancecrtcoi(null);
   		lpobj.Chooseinsurancecerticoi(null);
   		lpobj.SubmitICcoi(null);
-  		
+  		lpobj.OpenRegandTitle(null);
   		
   		lpobj.OpenleaseBAsheet(null);
-  		lpobj.OpenleasepayoffALS(null);
-  		lpobj.Openleasepayoffcustom(null);
-  		lpobj.Openleasepayoffbank(null);
+  		lpobj.UploadAsheet(null);
+  		lpobj.Choosebankagreement(null);
+  		lpobj.Submitbankagreement(null);
   		lpobj.Openleasebillofsale(null);
-  		lpobj.OpenleaseAccounting(null);
+  		lpobj.uploadAsheetbillofsale(null);
+  		lpobj.uploadbillofsale(null);
+  		lpobj.submitbillofsale(null);
+  		lpobj.OpenSOLAccounting(null);
+  		lpobj.uploadAsheetSOLAccounting(null);
+  		lpobj.uploadSOLAccounting(null);
+  		lpobj.SOLAccounting(null);
   		
   		
   		lpobj.Openleaseendofsale(null);
@@ -236,14 +246,14 @@ public class TestCaseExecution extends AppDriver
   		lpobj.Chooseendofsaledoc(null);
   		lpobj.SubmitEOSdoc(null);
   		
-  		lpobj.Clickshowlistbutton(null);
+  		lpobj.powerofattorney(null);
   		
       }
   	
 	
 
 	
-	//@Test
+	@Test (priority =6)
 	public void createmultiquotesformultivehicles() throws InterruptedException
 	{
 		Createmultiplequotefordifferentvehicle mqdvobj = new Createmultiplequotefordifferentvehicle();
@@ -349,10 +359,43 @@ public class TestCaseExecution extends AppDriver
 		
 
 	}
-
+	@Test (priority =7)
+	public void CreateLesseeRecord() throws InterruptedException
+	{
+	
+		Pages.CreateLesseeRecord Lobj = new Pages.CreateLesseeRecord();
+		
+		Lobj.Lesseetab();
+		
+		Lobj.Createnewlist();
+		
+		Lobj.Customerdetails();
+		
+		Lobj.Contactdetails();
+		Lobj.TaxExemption();
+		
+		Lobj.MasterLease();
+	
+	}
 	
 	
+	//@Test (priority =8)
+	public void CreateSupplierRecord() throws InterruptedException
+	{
 	
+		Pages.CreateSupplierRecord Lobj = new Pages.CreateSupplierRecord();
+		
+		Lobj.Supplierstab();
+		
+		Lobj.Createnewlist();
+		
+		Lobj.Customerdetails();
+		Lobj.Createnewlist();
+		Lobj.CustomerdetailseEquipment();
+		Lobj.Createnewlist();
+		Lobj.CustomerdetailsMarine();
+	
+	}
 	
 	
 	private void Threadsleep() {

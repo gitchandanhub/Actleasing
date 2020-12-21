@@ -1,97 +1,171 @@
-00:15:18,637  INFO devpinoyLogger:32 - Username Entered [[ChromeDriver: chrome on WINDOWS (b73b10427cb66309e25429069ccfb372)] -> name: email]
-00:15:22,765  INFO devpinoyLogger:40 - Password Entered Welcome@2020
-00:15:26,301  INFO devpinoyLogger:47 - Login button clicked
-00:15:31,768  INFO devpinoyLogger:104 - Quotation Tab clicked
-00:15:32,874  INFO devpinoyLogger:112 - Quotation Selection options opened
-00:15:33,977  INFO devpinoyLogger:121 - Single Quote Option Selected
-00:15:35,693  INFO devpinoyLogger:130 - Create Single Quote form is opened
-00:15:36,790  INFO devpinoyLogger:137 - Salesperson option opened
-00:15:37,880  INFO devpinoyLogger:145 - Salesperson Admin is Selected from options
-00:15:39,127  INFO devpinoyLogger:155 - Customer Number Is Entered
-00:15:42,385  INFO devpinoyLogger:168 - Customer Name is enteredYogiAutomationTest_I
-00:15:43,595  INFO devpinoyLogger:179 - Customer Address is added
-00:15:44,865  INFO devpinoyLogger:189 - Customer Address2 is added
-00:15:46,082  INFO devpinoyLogger:199 - Customer City is added
-00:15:47,284  INFO devpinoyLogger:219 - State options is opened
-00:15:48,416  INFO devpinoyLogger:229 - Customer state is selected 
-00:15:49,695  INFO devpinoyLogger:210 - Customer Zip is added
-00:15:50,931  INFO devpinoyLogger:241 - Customer Contact name  is added
-00:15:52,230  INFO devpinoyLogger:251 - Customer Email  is added
-00:15:53,536  INFO devpinoyLogger:263 - Customer Cell Number  is added
-00:15:54,828  INFO devpinoyLogger:276 - Customer DelAcqDate  is added
-00:15:55,970  INFO devpinoyLogger:289 - Lease type options opened
-00:15:57,104  INFO devpinoyLogger:300 - Maintenance Type CD is selected
-00:15:58,239  INFO devpinoyLogger:310 - Customer Term options opened 
-00:16:00,435  INFO devpinoyLogger:326 - Customer Term 72 is selected
-00:16:01,647  INFO devpinoyLogger:351 - Sales Tax states options are opened
-00:16:02,739  INFO devpinoyLogger:363 - Sales Tax states is selected
-00:16:04,019  INFO devpinoyLogger:375 - Sales Tax Rate is Added as $50
-00:16:05,201  INFO devpinoyLogger:385 - Vehicle year is opened 
-00:16:06,347  INFO devpinoyLogger:395 - Vehicle year 2017 is selected
-00:16:07,510  INFO devpinoyLogger:406 - Vehicle Make options opened
-00:16:08,654  INFO devpinoyLogger:417 - Vehicle Make Chevrolet is selected
-00:16:09,752  INFO devpinoyLogger:427 - Vehicle model options opened
-00:16:10,850  INFO devpinoyLogger:438 - Vehicle model cruze is selected
-00:16:12,036  INFO devpinoyLogger:448 - Vehicle New/Used options opened
-00:16:13,176  INFO devpinoyLogger:459 - Vehicle Used options is selected
-00:16:14,330  INFO devpinoyLogger:468 - Vehicle color options opened
-00:16:15,438  INFO devpinoyLogger:479 - Vehicle black color is selected
-00:16:16,569  INFO devpinoyLogger:488 - Vehicle interior color options opened
-00:16:17,681  INFO devpinoyLogger:499 - Vehicle Red Interior color is selected
-00:16:18,913  INFO devpinoyLogger:518 - Vehicle Order Type options opened
-00:16:20,011  INFO devpinoyLogger:531 - Vehicle state options opened
-00:16:21,143  INFO devpinoyLogger:549 - Vehicle state WY is selected
-00:16:22,313  INFO devpinoyLogger:565 - Vehicle Plate Type options opened
-00:16:23,436  INFO devpinoyLogger:583 - Vehicle plate type  is selected
-00:16:24,679  INFO devpinoyLogger:594 - Factory MSRP is added $20000
-00:16:25,977  INFO devpinoyLogger:606 - Additional MSRP is added $200
-00:16:27,227  INFO devpinoyLogger:620 - Dealer Cost is added $20100
-00:16:28,519  INFO devpinoyLogger:632 - Bank Fee is added $10
-00:16:29,786  INFO devpinoyLogger:644 - Residual Value is added $200
-00:16:31,129  INFO devpinoyLogger:656 - Customer custom Note is Added 
-00:16:36,943  INFO devpinoyLogger:667 - Single Quote is Successfully created and Saved 
-00:16:36,984 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
-00:16:36,986 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
-00:16:36,988 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
-00:16:36,988 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
-00:16:37,182 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
-00:16:37,183 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
-00:16:37,183 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
-00:16:37,183 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
-00:16:37,187 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
-00:16:37,187 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
-00:16:37,188 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
-00:16:37,188 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
-00:16:37,199 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
-00:16:37,199 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
-00:16:37,199 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
-00:16:37,199 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
-00:16:37,199 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-00:16:37,199 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
-00:16:37,199 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
-00:16:37,199 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
-00:16:37,210 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
-00:16:37,210 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
-00:16:37,210 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
-00:16:37,210 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
-00:16:37,236 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-00:16:37,237 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
-00:16:37,237 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
-00:16:37,238 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
-00:16:37,238 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
-00:16:37,242 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-00:16:37,243 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
-00:16:37,243 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
-00:16:37,244 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
-00:16:37,247 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
-00:16:37,248 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
-00:16:37,248 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
-00:16:37,249 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
-00:16:37,252 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-00:16:37,253 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
-00:16:37,253 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
-00:16:37,254 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
-00:16:37,261 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-00:16:37,262 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
-00:16:37,262 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
-00:16:37,262 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+20:31:54,742  INFO devpinoyLogger:32 - Username Entered [[ChromeDriver: chrome on WINDOWS (0c9dc2f9d2c40f275d951f2ca90d853d)] -> name: email]
+20:31:58,871  INFO devpinoyLogger:40 - Password Entered Welcome@2020
+20:32:03,355  INFO devpinoyLogger:47 - Login button clicked
+20:32:08,179  INFO devpinoyLogger:65 - Asset Tab is opened with all assets list
+20:32:10,700  INFO devpinoyLogger:82 - Latest Asset is opened from the Asset list
+20:32:12,960  INFO devpinoyLogger:93 - Custom Value is added is Customer Custom form/Field 1
+20:32:15,213  INFO devpinoyLogger:103 - Custom Value is added is Customer Custom form/Field 2
+20:32:17,484  INFO devpinoyLogger:113 - Custom Value is added is Customer Custom form/Field 3
+20:32:19,776  INFO devpinoyLogger:126 - Owner Name is added in Registered owner info
+20:32:22,048  INFO devpinoyLogger:139 - Owner Email is added in Registered owner info
+20:32:24,218  INFO devpinoyLogger:152 - Owner Address1 is added in Registered owner info
+20:32:26,515  INFO devpinoyLogger:166 - Owner Address2 is added in Registered owner info
+20:32:28,766  INFO devpinoyLogger:177 - Owner City is added in Registered owner info
+20:32:30,943  INFO devpinoyLogger:190 - Owner State option is opened in Registered owner info
+20:32:33,194  INFO devpinoyLogger:212 - Owner zip is added in Registered owner info
+20:32:35,928  INFO devpinoyLogger:224 - Asset Vehicle data is saved
+20:32:38,408  INFO devpinoyLogger:233 - Asset Registration tab is opened
+20:32:40,616  INFO devpinoyLogger:245 - Title Number is added in Asset registration form
+20:32:42,779  INFO devpinoyLogger:254 - Title State options opened
+20:32:44,890  INFO devpinoyLogger:263 - Title State is select as WY
+20:32:47,113  INFO devpinoyLogger:273 - Paper/Elec is added in Registration  form
+20:32:49,807  INFO devpinoyLogger:283 - Assets Registration  form is saved
+20:32:52,401  INFO devpinoyLogger:292 - Clicked on Show List button and All asset list is opened
+20:32:54,076  INFO devpinoyLogger:104 - Quotation Tab clicked
+20:32:55,153  INFO devpinoyLogger:112 - Quotation Selection options opened
+20:32:56,250  INFO devpinoyLogger:121 - Single Quote Option Selected
+20:32:58,029  INFO devpinoyLogger:130 - Create Single Quote form is opened
+20:32:59,152  INFO devpinoyLogger:137 - Salesperson option opened
+20:33:00,317  INFO devpinoyLogger:145 - Salesperson Admin is Selected from options
+20:33:01,556  INFO devpinoyLogger:155 - Customer Number Is Entered
+20:33:04,860  INFO devpinoyLogger:168 - Customer Name is enteredYogiAutomationTest_K
+20:33:09,544  INFO devpinoyLogger:30 - Quotation Tab clicked for refresh
+20:33:12,031  INFO devpinoyLogger:39 - Quotation Active prospect is opened
+20:33:14,713  INFO devpinoyLogger:49 - Newly created Quotation is opened in Edit Mode for approval
+20:33:17,781  INFO devpinoyLogger:62 - Newly created Quotation is now Approved
+20:33:19,188  INFO devpinoyLogger:30 - Clicked on  Quotation tab displayed
+20:33:20,702  INFO devpinoyLogger:44 - Again Active prospect is opened for convert to lease for above approved Single quote
+20:33:23,342  INFO devpinoyLogger:55 - Edit Above Approved Single quote for conversion to lease
+20:33:25,449  INFO devpinoyLogger:67 - Convert to lease confirmation popup opened with yes and no option
+20:33:27,591  INFO devpinoyLogger:77 - Above approved Single Quote is now converted to Lease successfully
+20:33:34,434  INFO devpinoyLogger:82 - Clicked on Lease Tab and all lease List are loaded
+20:33:37,041  INFO devpinoyLogger:98 - Latest converted Lease is opened with data sheet opened with unit no=1267-00-0001
+20:33:41,088  INFO devpinoyLogger:112 - Lease Accounting sheet is opened
+20:33:43,964  INFO devpinoyLogger:122 - Lease Bank sheet is opened
+20:33:46,260  INFO devpinoyLogger:143 - Moves Hover over Bule Hills Bank and selected from bank list
+20:33:49,306  INFO devpinoyLogger:155 - Bank Sheet is save with Bule Hills bank option
+20:33:51,809  INFO devpinoyLogger:165 - Lease schedule A tab is opened
+20:33:54,517  INFO devpinoyLogger:176 - Schedule A upload doc button clicked
+20:33:56,727  INFO devpinoyLogger:190 - Clicked on choose file button 
+20:34:00,567  INFO devpinoyLogger:201 - Selected file is uploaded for Schedule A lease tab
+20:34:03,230  INFO devpinoyLogger:214 - Lease COI sheet is opened
+20:34:05,347  INFO devpinoyLogger:224 - COI insurance certificate upload doc button clicked
+20:34:07,436  INFO devpinoyLogger:236 - Clicked on choose file button 
+20:34:11,314  INFO devpinoyLogger:247 - Selected file is uploaded for COI (Insurance certi) lease tab
+20:34:13,967  INFO devpinoyLogger:257 - OpenRegandTitle Sheet is opened
+20:34:16,471  INFO devpinoyLogger:267 - Lease Bank Agreement Sheet is opened
+20:34:18,591  INFO devpinoyLogger:277 - Bank agreement upload doc button clicked
+20:34:20,690  INFO devpinoyLogger:289 - Clicked on choose file button 
+20:34:24,214  INFO devpinoyLogger:300 - Bank agreement successfully submitted
+20:34:26,737  INFO devpinoyLogger:310 - Lease Bill Of Sale Sheet is opened
+20:34:28,793  INFO devpinoyLogger:320 - Lease Bill Of Sale Sheet is opened
+20:34:30,888  INFO devpinoyLogger:332 - Clicked on choose file button 
+20:34:34,344  INFO devpinoyLogger:342 - Bill of sale submitted successfully
+20:34:37,466  INFO devpinoyLogger:357 - OpenSOLAccounting Sheet is opened
+20:34:39,520  INFO devpinoyLogger:367 - click on SOLAccounting
+20:34:41,646  INFO devpinoyLogger:378 - Clicked on choose file button 
+20:34:45,053  INFO devpinoyLogger:388 - SOLAccounting submitted successfully
+20:34:47,482  INFO devpinoyLogger:401 - Lease Accounting Sheet is opened
+20:34:49,599  INFO devpinoyLogger:412 - End of sale upload doc button clicked
+20:34:51,711  INFO devpinoyLogger:424 - Clicked on choose file button 
+20:34:55,142  INFO devpinoyLogger:435 - Selected file is uploaded for End Of Sale of lease tab
+20:34:57,562  INFO devpinoyLogger:445 - Clicked on powerof attorney
+20:34:57,943  INFO devpinoyLogger:129 - Quotation Tab clicked
+20:35:00,990  INFO devpinoyLogger:135 - Create New button clicked
+20:35:04,109  INFO devpinoyLogger:141 - Create Multiple Quote For Different Vehicle Radio button selected
+20:35:08,013  INFO devpinoyLogger:147 - clicked on Submit Button
+20:35:09,312  INFO devpinoyLogger:162 - Customer Number Is Entered
+20:35:12,546  INFO devpinoyLogger:175 - Customer Name is enteredVikramTest_L
+20:35:13,735  INFO devpinoyLogger:186 - Customer Address is added
+20:35:15,021  INFO devpinoyLogger:196 - Customer Address2 is added
+20:35:16,268  INFO devpinoyLogger:206 - Customer City is added
+20:35:17,581  INFO devpinoyLogger:221 - Customer Zip is added
+20:35:21,256  INFO devpinoyLogger:250 - Salestax sate selected
+20:35:21,410  INFO devpinoyLogger:258 - entered sales tax rate
+20:35:25,907  INFO devpinoyLogger:270 - Customer DelAcqDate  is added
+20:35:26,031  INFO devpinoyLogger:279 - Lease Type selected
+20:35:26,097  INFO devpinoyLogger:279 - Lease Type selected
+20:35:26,219  INFO devpinoyLogger:286 - Maintenance Type selected
+20:35:29,418  INFO devpinoyLogger:295 - year Type selected
+20:35:29,551  INFO devpinoyLogger:302 - make Type selected
+20:35:29,777  INFO devpinoyLogger:309 - model Type selected
+20:35:30,891  INFO devpinoyLogger:364 - year Type selected
+20:35:31,023  INFO devpinoyLogger:371 - make Type selected
+20:35:31,299  INFO devpinoyLogger:378 - model Type selected
+20:35:35,568  INFO devpinoyLogger:433 - year Type selected
+20:35:35,731  INFO devpinoyLogger:440 - make Type selected
+20:35:36,037  INFO devpinoyLogger:447 - model Type selected
+20:35:44,420  INFO devpinoyLogger:504 - Factory MSRP is added $20000
+20:35:46,139  INFO devpinoyLogger:516 - Additional MSRP is added $200
+20:35:47,858  INFO devpinoyLogger:530 - Dealer Cost is added $20100
+20:35:49,530  INFO devpinoyLogger:542 - Bank Fee is added $10
+20:35:51,249  INFO devpinoyLogger:554 - Residual Value is added $200
+20:35:53,008  INFO devpinoyLogger:566 - Factory MSRP is added $20000
+20:35:54,676  INFO devpinoyLogger:578 - Additional MSRP is added $200
+20:35:56,581  INFO devpinoyLogger:592 - Dealer Cost is added $20100
+20:35:58,388  INFO devpinoyLogger:604 - Bank Fee is added $10
+20:36:00,161  INFO devpinoyLogger:616 - Residual Value is added $200
+20:36:01,913  INFO devpinoyLogger:628 - Factory MSRP is added $20000
+20:36:03,771  INFO devpinoyLogger:640 - Additional MSRP is added $200
+20:36:05,634  INFO devpinoyLogger:654 - Dealer Cost is added $20100
+20:36:07,467  INFO devpinoyLogger:666 - Bank Fee is added $10
+20:36:09,286  INFO devpinoyLogger:678 - Residual Value is added $200
+20:36:11,300  INFO devpinoyLogger:691 - Customer custom Note is Added 
+20:36:17,625  INFO devpinoyLogger:702 - muiltiple Quotes are Successfully created and Saved 
+20:36:19,243  INFO devpinoyLogger:80 - Click on Lessee tab
+20:36:20,705  INFO devpinoyLogger:88 - Click on Createnewlist
+20:36:34,687  INFO devpinoyLogger:125 - Contact details  has been created successfully 
+20:36:49,498  INFO devpinoyLogger:188 - TaxExemption details filled successufully
+20:36:49,499  INFO devpinoyLogger:191 - Contact main details record  has been created successfully 
+20:36:54,780  INFO devpinoyLogger:210 - Contact main details record  has been created successfully 
+20:36:54,824 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+20:36:54,824 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+20:36:54,826 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+20:36:54,826 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+20:36:55,176 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+20:36:55,177 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+20:36:55,177 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+20:36:55,177 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+20:36:55,180 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+20:36:55,181 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+20:36:55,182 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+20:36:55,182 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+20:36:55,189 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+20:36:55,190 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+20:36:55,190 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+20:36:55,191 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+20:36:55,202 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+20:36:55,202 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+20:36:55,203 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+20:36:55,203 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+20:36:55,217 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+20:36:55,217 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+20:36:55,218 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+20:36:55,218 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+20:36:55,232 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+20:36:55,241 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+20:36:55,243 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+20:36:55,246 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+20:36:55,247 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+20:36:55,248 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+20:36:55,249 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+20:36:55,253 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+20:36:55,254 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+20:36:55,254 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+20:36:55,254 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+20:36:55,258 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+20:36:55,259 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+20:36:55,259 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+20:36:55,260 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+20:36:55,263 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+20:36:55,263 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+20:36:55,264 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+20:36:55,264 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+20:36:55,267 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+20:36:55,268 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+20:36:55,268 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+20:36:55,268 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+20:36:55,281 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+20:36:55,282 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+20:36:55,282 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+20:36:55,282 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/schandan/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"

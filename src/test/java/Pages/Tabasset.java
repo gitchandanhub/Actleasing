@@ -1,5 +1,6 @@
 package Pages;
 
+import java.rmi.dgc.Lease;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -15,6 +16,7 @@ public class Tabasset extends AppDriver
 
 {
 
+	
 	public Tabasset()
 	{
 		 PageFactory.initElements(driver, this);
@@ -69,7 +71,7 @@ public class Tabasset extends AppDriver
 	
 	{
 
-	 Leasetabs obj = new Leasetabs();
+	
 	 
 	 List<WebElement>  list = driver.findElements(By.xpath(".//*[starts-with(@id, 'unit_no_')]"));
 	 

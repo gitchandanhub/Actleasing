@@ -1,43 +1,36 @@
 package Pages;
 
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import BaseDriver.AppDriver;
 
-
-public class Converttoleasesinglequote extends AppDriver
+public class singlequoteconverttolead extends AppDriver
 
 {
-	public Converttoleasesinglequote()
+	public singlequoteconverttolead()
 	{
 		 PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div/div[1]/div/ol/div[3]/a")  WebElement Showlist;
-	@FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div/ul/li[3]/a")  WebElement ClickActiveprospect;
+	@FindBy(xpath = "//*[@id=\"menu-content\"]/li[3]/a/span")  WebElement quotationtab;
+	@FindBy(xpath = "//a[contains(text(),'Active Prospects')]")  WebElement ClickActiveprospect;
 	@FindBy(xpath = "//*[@id=\"DataTables_Table_0\"]/tbody/tr[1]/td[10]/a[2]")  WebElement EditSingleQuote;
 	@FindBy(id= "confirm_conversion")  WebElement Converttolease;
 	@FindBy(id= "convert_quotation")  WebElement Confirmconvert;
 	
 	
 	
-	
-	
-	
-	public void Showlisteditquotescreen(String showlisteditscreenlc) throws InterruptedException 
+	public void quotationtab (String quote) throws InterruptedException
 	
 	{
-	
-		 Showlist.click();
+		quotationtab.click();
 	     Thread.sleep(1000);
-	     log.info("Clicked on Show list after approval all Active Quotation displayed");
-         System.out.println("Clicked on Show list after approval all Active Quotation displayed");
-	 }
+	     log.info("Clicked on  Quotation tab displayed");
+        System.out.println("Clicked on  Quotation tab displayed");
+	}
+	
 	
 	
 
@@ -85,5 +78,9 @@ public class Converttoleasesinglequote extends AppDriver
          System.out.println("Above approved Single Quote is now converted to Lease successfully");
 	 }
 	
-	
+
+
+
+
+
 }

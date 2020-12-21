@@ -39,20 +39,37 @@ public class TabLease extends AppDriver
     @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/form/input[1]")  WebElement Chooseuploadcoi;
     @FindBy(id= "submit_upload_file")  WebElement Uploadinsurancecertcoi;
     
+    
+    @FindBy(xpath = "//a[contains(text(),'Reg. & Title')]")  WebElement OpenRegandTitle;
+    
     @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div[1]/div[2]/ul/li[6]/a")  WebElement Opencleasebankagreement;
-    @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div[1]/div[2]/ul/li[7]/a")  WebElement OpencleasepayoffALS;
-    @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div[1]/div[2]/ul/li[8]/a")  WebElement OpencleasepayoffCust;
-    @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div[1]/div[2]/ul/li[9]/a")  WebElement Opencleasepayoffbank;
-    @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div[1]/div[2]/ul/li[10]/a")  WebElement Opencleasebillofsale;
+    
+    @FindBy(xpath = "//button[contains(text(),'Bank Agreement')]")  WebElement UploadAsheet;
+    @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/form/input[1]")  WebElement Choosebankaggrement;
+    @FindBy(id= "submit_upload_file")  WebElement  Submitbankagreement;
+    
+   // @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div[1]/div[2]/ul/li[7]/a")  WebElement OpencleasepayoffALS;
+   // @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div[1]/div[2]/ul/li[8]/a")  WebElement OpencleasepayoffCust;
+    
+    
+    @FindBy(xpath = "//a[contains(text(),'Bill Of Sale')]")  WebElement Opencleasebillofsale;
+    @FindBy(xpath = "//button[contains(text(),'Bill Of Sale')]")  WebElement uploadAsheetbillofsale;
+    @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/form/input[1]")  WebElement Choosebankaggrement1;
+    @FindBy(id= "submit_upload_file")  WebElement  submitbillofsale;
+    
+    @FindBy(xpath = "//a[contains(text(),'SOL Accounting')]")  WebElement OpenSOLAccounting;
+    @FindBy(xpath = "//button[contains(text(),'Accounting')]")  WebElement uploadAsheetSOLAccounting;
+    @FindBy(id= "submit_upload_file")  WebElement  SOLAccounting;
+    
     @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div[1]/div[2]/ul/li[11]/a")  WebElement OpencleaseAccounting;
     
-    @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div[1]/div[2]/ul/li[12]/a")  WebElement Opencleaseendoflease;
-    @FindBy(xpath = "//*[@id=\"tab-data-sheet\"]/div/div[3]/div/table/tbody/tr[1]/td/button")  WebElement Uploadendofleasedoc;
+    @FindBy(xpath = "//a[contains(text(),'EOL Accounting')]")  WebElement Opencleaseendoflease;
+    @FindBy(xpath = "//button[contains(text(),'End Of Lease')]")  WebElement Uploadendofleasedoc;
     @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/form/input[1]")  WebElement ChooseuploadEOL;
     @FindBy(id= "submit_upload_file")  WebElement UploadEndofleasedoc;
     
     
-    @FindBy(xpath = "//*[@id=\"nav-tabContent\"]/div/div/div[1]/div/ol/div[3]/a")  WebElement showlistlease;
+    @FindBy(xpath = "//a[contains(text(),'Power Of Attorney')]")  WebElement powerofattorney;
   
 	
 	
@@ -231,7 +248,15 @@ public void SubmitICcoi(String submituploadICcoi) throws InterruptedException
    System.out.println("Selected file is uploaded COI (Insurance certi)  lease tab ");
  }
 
+public void OpenRegandTitle(String OpenleaseBAS) throws InterruptedException 
 
+{
+
+	OpenRegandTitle.click();
+     Thread.sleep(2000);
+     log.info("OpenRegandTitle Sheet is opened");
+  System.out.println("OpenRegandTitle Sheet is opened");
+ }
 
 public void OpenleaseBAsheet(String OpenleaseBAS) throws InterruptedException 
 
@@ -243,18 +268,18 @@ public void OpenleaseBAsheet(String OpenleaseBAS) throws InterruptedException
   System.out.println("Lease Bank Agreement Sheet is opened");
  }
 
-public void UploadBAsheet(String uploadICcoi) throws InterruptedException 
+public void UploadAsheet(String uploadICcoi) throws InterruptedException 
 
 {
 
-	UploadBAsheet.click();
+	UploadAsheet.click();
      Thread.sleep(2000);
      log.info("Bank agreement upload doc button clicked");
   System.out.println("Bank agreement upload doc button clicked");
  }
 
 
-public void Chooseinsurancecerticoi(String chooseICcoi) throws InterruptedException 
+public void Choosebankagreement(String chooseICcoi) throws InterruptedException 
 
 {
 
@@ -265,51 +290,16 @@ public void Chooseinsurancecerticoi(String chooseICcoi) throws InterruptedExcept
   System.out.println("Clicked on choose file button ");
  }
 
-public void SubmitICcoi(String submituploadICcoi) throws InterruptedException 
+public void Submitbankagreement(String submituploadICcoi) throws InterruptedException 
 
 {
 
-Uploadinsurancecertcoi.click();
+	Submitbankagreement.click();
 
  Thread.sleep(2000);
- log.info("Selected file is uploaded for COI (Insurance certi) lease tab");
-System.out.println("Selected file is uploaded COI (Insurance certi)  lease tab ");
+ log.info("Bank agreement successfully submitted");
+System.out.println("Bank agreement successfully submitted ");
 }
-
-
-
-
-public void OpenleasepayoffALS(String OpenleasePOALS) throws InterruptedException 
-
-{
-
-   	OpencleasepayoffALS.click();
-     Thread.sleep(2000);
-     log.info("Lease Pay OFF ALS Sheet is opened");
-   System.out.println("Lease Pay OFF ALS Sheet is opened");
- }
-
-
-public void Openleasepayoffcustom(String OpenleasePOCust) throws InterruptedException 
-
-{
-
-	OpencleasepayoffCust.click();
-     Thread.sleep(2000);
-     log.info("Lease Pay OFF Customer Sheet is opened");
-  System.out.println("Lease Pay OFF Customer Sheet is opened");
- }
-
-public void Openleasepayoffbank(String OpenleasePOBank) throws InterruptedException 
-
-{
-
-	Opencleasepayoffbank.click();
-     Thread.sleep(2000);
-     log.info("Lease Pay OFF Bank Sheet is opened");
-  System.out.println("Lease Pay OFF Bank Sheet is opened");
- }
-
 
 public void Openleasebillofsale(String OpenleaseBOS) throws InterruptedException 
 
@@ -321,19 +311,86 @@ public void Openleasebillofsale(String OpenleaseBOS) throws InterruptedException
   System.out.println("Lease Bill Of Sale Sheet is opened");
  }
 
- 
-
-public void OpenleaseAccounting(String OpenleaseAcctng) throws InterruptedException 
+public void uploadAsheetbillofsale(String OpenleaseBOS) throws InterruptedException 
 
 {
 
-	OpencleaseAccounting.click();
+	uploadAsheetbillofsale.click();
      Thread.sleep(2000);
-     log.info("Lease Accounting Sheet is opened");
-  System.out.println("Lease Accounting Sheet is opened");
+     log.info("Lease Bill Of Sale Sheet is opened");
+  System.out.println("Lease Bill Of Sale Sheet is opened");
+ }
+
+
+
+public void uploadbillofsale(String OpenleasePOCust) throws InterruptedException 
+
+{
+
+	driver.findElement(By.name("document")).sendKeys(config.getProperty("UploadFilepath"));
+    Thread.sleep(2000);
+    log.info("Clicked on choose file button ");
+ System.out.println("Clicked on choose file button ");
+ }
+
+public void submitbillofsale(String OpenleasePOBank) throws InterruptedException 
+
+{
+
+	submitbillofsale.click();
+     Thread.sleep(2000);
+     log.info("Bill of sale submitted successfully");
+  System.out.println("Bill of sale submitted successfully");
+ }
+
+
+
+
+ 
+
+public void OpenSOLAccounting(String OpenleasePOALS) throws InterruptedException 
+
+{
+
+	OpenSOLAccounting.click();
+     Thread.sleep(2000);
+     log.info("OpenSOLAccounting Sheet is opened");
+   System.out.println("OpenSOLAccounting Sheet is opened");
  }
    
- 
+public void uploadAsheetSOLAccounting(String OpenleasePOALS) throws InterruptedException 
+
+{
+
+	uploadAsheetSOLAccounting.click();
+     Thread.sleep(2000);
+     log.info("click on SOLAccounting");
+   System.out.println("click on SOLAccounting");
+ }
+
+
+public void uploadSOLAccounting(String OpenleasePOCust) throws InterruptedException 
+
+{
+
+	driver.findElement(By.name("document")).sendKeys(config.getProperty("UploadFilepath"));
+    Thread.sleep(2000);
+    log.info("Clicked on choose file button ");
+ System.out.println("Clicked on choose file button ");
+ }
+
+public void SOLAccounting(String OpenleasePOBank) throws InterruptedException 
+
+{
+
+	SOLAccounting.click();
+     Thread.sleep(2000);
+     log.info("SOLAccounting submitted successfully");
+  System.out.println("SOLAccounting submitted successfully"); 
+
+
+}
+
  
 public void Openleaseendofsale(String OpenleaseEOS) throws InterruptedException 
 
@@ -379,14 +436,14 @@ UploadEndofleasedoc.click();
  System.out.println("Selected file is uploaded for End Of Sale of  lease tab ");
  }  
  
-public void Clickshowlistbutton(String clickSLbutton) throws InterruptedException 
+public void powerofattorney(String clickSLbutton) throws InterruptedException 
 
 {
 
-showlistlease.click();
+	powerofattorney.click();
      Thread.sleep(2000);
-     log.info("Clicked on Show list button on Lease Tab and all lease list is displayed");
-   System.out.println("Clicked on Show list button on Lease Tab and all lease list is displayed");
+     log.info("Clicked on powerof attorney");
+   System.out.println("Clicked on powerof attorney");
  }  
  	
 
