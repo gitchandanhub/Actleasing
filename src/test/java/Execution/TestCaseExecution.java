@@ -72,6 +72,7 @@ public class TestCaseExecution extends AppDriver
 		lpobj.SaveAssetRegform(null);
 		
 		lpobj.Showlistasset(null);
+		Thread.sleep(4000);
 		
     }
 	
@@ -160,7 +161,7 @@ public class TestCaseExecution extends AppDriver
     
     lpobj.savesinglequote();
     
-    
+    Thread.sleep(6000);
     
     }
 	
@@ -183,7 +184,7 @@ public class TestCaseExecution extends AppDriver
   		lpobj.Editsinglequote(null);
   		lpobj.Approvesinglequotation(null);
   		
-		
+  		Thread.sleep(6000);
       }
    		
   	@Test(priority =4)
@@ -198,7 +199,7 @@ public class TestCaseExecution extends AppDriver
   		lpobj.Converttoleaseasq(null);
   		lpobj.ConfirmConverttoleaseasq(null);
   	
-  		
+  		Thread.sleep(6000);
       }
   	
   	@Test(priority =5)
@@ -235,7 +236,7 @@ public class TestCaseExecution extends AppDriver
   		lpobj.uploadAsheetbillofsale(null);
   		lpobj.uploadbillofsale(null);
   		lpobj.submitbillofsale(null);
-  		lpobj.OpenSOLAccounting(null);
+  		/*lpobj.OpenSOLAccounting(null);
   		lpobj.uploadAsheetSOLAccounting(null);
   		lpobj.uploadSOLAccounting(null);
   		lpobj.SOLAccounting(null);
@@ -244,15 +245,210 @@ public class TestCaseExecution extends AppDriver
   		lpobj.Openleaseendofsale(null);
   		lpobj.Uploadendofsaledoc(null);
   		lpobj.Chooseendofsaledoc(null);
-  		lpobj.SubmitEOSdoc(null);
+  		lpobj.SubmitEOSdoc(null);*/
   		
-  		lpobj.powerofattorney(null);
-  		
+  		//lpobj.powerofattorney(null);
+  		//Thread.sleep(4000);
       }
   	
-	
+  	@Test (priority =11)
+	public void Createmultiplequoteforsinglevehicle() throws InterruptedException
+	{
+  		Pages.Createmultiplequoteforsinglevehicle mqdvobj = new Pages.Createmultiplequoteforsinglevehicle();
+  		Thread.sleep(4000);
+  		
+  		mqdvobj.OpenQuotationtab(null);
+		Thread.sleep(3000);
+		mqdvobj.Quotetypeselection(null);
+		Thread.sleep(3000);
+		mqdvobj.Selectsinglequote(null);
+		Thread.sleep(3000);
+		mqdvobj.SubmitSinglequote(null);
+		//Filling Customer Data
+		mqdvobj.selectSalesPerson();
+		mqdvobj.EnterCustomerNumber(config.getProperty("CusotmerNumber"));
+		mqdvobj.EnterCustomerName(null);
+		mqdvobj.EnterCustomerAddress(config.getProperty("CustomerAdd"));
+		mqdvobj.EnterCustomerAddress2(config.getProperty("CustomerAdd1"));
+		mqdvobj.EnterCustomerCity(config.getProperty("CustomerCity"));
+		mqdvobj.selectState();
+		mqdvobj.EnterCustomerZip(config.getProperty("CustomerZip"));
+		mqdvobj.enterContactName();
+		mqdvobj.enterEmail();
+		mqdvobj.enterCellTell();
+		mqdvobj.enterWorkTell();
+		Thread.sleep(3000);
+		//Filling sales data
+		mqdvobj.salesstdstate();
+		mqdvobj.enterRate();
+		Thread.sleep(3000);
+		//Filling lease data
+		mqdvobj.EnterDelAcqDate(config.getProperty("DelAcqDate"));
+		mqdvobj.selectLeaseType();
+		mqdvobj.selectLeaseType();
+		mqdvobj.selectMaintenanceType();
+		Thread.sleep(3000);
+		//filling vehicle data
+		mqdvobj.selectVehicle1Year();
+		Thread.sleep(1000);
+		mqdvobj.selectVehicle1make();
+		Thread.sleep(1000);
+		mqdvobj.selectVehicle1model();
+		Thread.sleep(1000);
+		mqdvobj.enterTrim1();
+		Thread.sleep(1000);
+		mqdvobj.selectNewUsed();
+		Thread.sleep(1000);
+		mqdvobj.selectExtcolor1();
+		Thread.sleep(1000);
+		mqdvobj.selectIntcolor1();
+		Thread.sleep(1000);
+		mqdvobj.selectOrderType1();
+		Thread.sleep(1000);
+		mqdvobj.selectPlateState();
+		Thread.sleep(1000);
+		mqdvobj.selectPlateType1();
+		Thread.sleep(1000);
+		mqdvobj.selectQuote1Term();
+		Thread.sleep(1000);
+		
+		mqdvobj.selectQuote2Term();
+		Thread.sleep(1000);
+		
+		mqdvobj.selectQuote3Term();
+		Thread.sleep(3000);
+		
+		//Rates quote1
+		mqdvobj.factorymsrp(config.getProperty("FactoryMSRP"));
+		mqdvobj.additionalmsrp(config.getProperty("AdditionalMSRP"));
+		mqdvobj.delaercost(config.getProperty("DealerCost"));
+		mqdvobj.Bankfees(config.getProperty("BankFee"));
+		mqdvobj.residualvaule(config.getProperty("ResidualValue"));
 
-	
+
+		
+		
+		mqdvobj.customercustomnote(config.getProperty("Cusomternotes"));
+		
+		
+		
+	    
+	    //Save Single Quote
+	    
+		mqdvobj.savesinglequote(null);
+		
+		Thread.sleep(4000);
+
+  		
+  		
+	}
+  	@Test (priority =10)
+	public void CreatemultiplequoteforIndependentvehicle() throws InterruptedException
+	{
+  		Pages.CreatemultiplequoteforIndependentvehicle mqdvobj = new Pages.CreatemultiplequoteforIndependentvehicle();
+  		
+  		mqdvobj.clickonQuotationTab();
+		Thread.sleep(3000);
+		mqdvobj.clickonCreateNew();
+		Thread.sleep(3000);
+		mqdvobj.selectCreateMultipleQuoteForDifferentVehicle();
+		Thread.sleep(3000);
+		mqdvobj.clickonSubmitButton();
+		//Filling Customer Data
+		mqdvobj.selectSalesPerson();
+		mqdvobj.EnterCustomerNumber(config.getProperty("CusotmerNumber"));
+		mqdvobj.EnterCustomerName(null);
+		mqdvobj.EnterCustomerAddress(config.getProperty("CustomerAdd"));
+		mqdvobj.EnterCustomerAddress2(config.getProperty("CustomerAdd1"));
+		mqdvobj.EnterCustomerCity(config.getProperty("CustomerCity"));
+		mqdvobj.selectState();
+		mqdvobj.EnterCustomerZip(config.getProperty("CustomerZip"));
+		mqdvobj.enterContactName();
+		mqdvobj.enterEmail();
+		mqdvobj.enterCellTell();
+		mqdvobj.enterWorkTell();
+		Thread.sleep(3000);
+		//Filling sales data
+		mqdvobj.salesstdstate();
+		mqdvobj.enterRate();
+		Thread.sleep(3000);
+		//Filling lease data
+		mqdvobj.EnterDelAcqDate(config.getProperty("DelAcqDate"));
+		mqdvobj.selectLeaseType();
+		mqdvobj.selectLeaseType();
+		mqdvobj.selectMaintenanceType();
+		Thread.sleep(3000);
+		//filling vehicle data
+		mqdvobj.selectVehicle1Year();
+		mqdvobj.selectVehicle1make();
+		mqdvobj.selectVehicle1model();
+		mqdvobj.enterTrim1();
+		mqdvobj.selectNewUsed();
+		mqdvobj.selectExtcolor1();
+		mqdvobj.selectIntcolor1();
+		mqdvobj.selectOrderType1();
+		mqdvobj.selectPlateState();
+		mqdvobj.selectPlateType1();
+		mqdvobj.selectQuote1Term();
+		mqdvobj.selectVehicle2Year();
+		mqdvobj.selectVehicle2make();
+		mqdvobj.selectVehicle2model();
+		Thread.sleep(3000);
+		mqdvobj.enterTrim2();
+		mqdvobj.selectNewUsed2();
+		mqdvobj.selectExtcolor2();
+		mqdvobj.selectIntcolor2();
+		mqdvobj.selectOrderType2();
+		mqdvobj.selectPlateState2();
+		mqdvobj.selectPlateType2();
+		mqdvobj.selectQuote2Term();
+		mqdvobj.selectVehicle3Year();
+		mqdvobj.selectVehicle3make();
+		mqdvobj.selectVehicle3model();
+		Thread.sleep(3000);
+		mqdvobj.enterTrim3();
+		mqdvobj.selectNewUsed3();
+		mqdvobj.selectExtcolor3();
+		mqdvobj.selectIntcolor3();
+		mqdvobj.selectOrderType3();
+		mqdvobj.selectPlateState3();
+		mqdvobj.selectPlateType3();
+		mqdvobj.selectQuote3Term();
+		Thread.sleep(3000);
+		
+		//Rates quote1
+		mqdvobj.factorymsrp(config.getProperty("FactoryMSRP"));
+		mqdvobj.additionalmsrp(config.getProperty("AdditionalMSRP"));
+		mqdvobj.delaercost(config.getProperty("DealerCost"));
+		mqdvobj.Bankfees(config.getProperty("BankFee"));
+		mqdvobj.residualvaule(config.getProperty("ResidualValue"));
+		//Rates quote2
+		mqdvobj.factorymsrp2(config.getProperty("FactoryMSRP"));
+		mqdvobj.additionalmsrp2(config.getProperty("AdditionalMSRP"));
+		mqdvobj.delaercost2(config.getProperty("DealerCost"));
+		mqdvobj.Bankfees2(config.getProperty("BankFee"));
+		mqdvobj.residualvaule2(config.getProperty("ResidualValue"));
+		//Rates quote3
+		mqdvobj.factorymsrp3(config.getProperty("FactoryMSRP"));
+		mqdvobj.additionalmsrp3(config.getProperty("AdditionalMSRP"));
+		mqdvobj.delaercost3(config.getProperty("DealerCost"));
+		mqdvobj.Bankfees3(config.getProperty("BankFee"));
+		mqdvobj.residualvaule3(config.getProperty("ResidualValue"));
+		
+		
+		mqdvobj.customercustomnote(config.getProperty("Cusomternotes"));
+		
+		
+		
+	    
+	    //Save Single Quote
+	    
+		mqdvobj.savesinglequote(null);
+		
+		Thread.sleep(4000);
+  		
+  		
+	}
 	@Test (priority =6)
 	public void createmultiquotesformultivehicles() throws InterruptedException
 	{
@@ -355,7 +551,7 @@ public class TestCaseExecution extends AppDriver
 	    
 		mqdvobj.savesinglequote(null);
 		
-		
+		Thread.sleep(4000);
 		
 
 	}
@@ -375,11 +571,12 @@ public class TestCaseExecution extends AppDriver
 		Lobj.TaxExemption();
 		
 		Lobj.MasterLease();
+		Thread.sleep(4000);
 	
 	}
 	
 	
-	//@Test (priority =8)
+	@Test (priority =8)
 	public void CreateSupplierRecord() throws InterruptedException
 	{
 	
@@ -394,8 +591,28 @@ public class TestCaseExecution extends AppDriver
 		Lobj.CustomerdetailseEquipment();
 		Lobj.Createnewlist();
 		Lobj.CustomerdetailsMarine();
+		Thread.sleep(4000);
 	
 	}
+	
+	@Test (priority =9)
+	public void CreateBuyersRecord() throws InterruptedException
+	{
+	
+		Pages.CreateBuyersRecord Lobj = new Pages.CreateBuyersRecord();
+		
+		Thread.sleep(4000);
+		Lobj.Buyertab();
+		
+		Lobj.Createnewlist();
+		
+		Lobj.autoBuyerdetails();
+		Lobj.EuipmentBuyerdetails();
+		Lobj.MarineBuyerdetails();
+		
+	
+	}
+	
 	
 	
 	private void Threadsleep() {

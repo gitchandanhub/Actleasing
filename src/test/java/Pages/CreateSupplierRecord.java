@@ -1,5 +1,7 @@
 package Pages;
 
+import java.util.Random;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -65,8 +67,10 @@ public class CreateSupplierRecord extends AppDriver
 	 {
 		
 	     Thread.sleep(1000);
-	     
-	     dealership_name.sendKeys("Stoneham Ford_test"+ Integer.toString(incrementCounter()));
+	     Random r = new Random();
+		 char unique = (char)(r.nextInt(26) + 'A'); 
+		 String cname = ("YogiAutomationTest_" + unique);
+	     dealership_name.sendKeys(cname);
 	     Thread.sleep(1000);
 	     street_address.sendKeys("185 Main Street");
 	     Thread.sleep(1000);
@@ -126,8 +130,11 @@ public class CreateSupplierRecord extends AppDriver
 	 {
 		
 	     Thread.sleep(1000);
+	     Random r = new Random();
+		 char unique = (char)(r.nextInt(26) + 'A'); 
+		 String cname = ("YogiAutomationTest_" + unique);
 	     
-	     dealership_name.sendKeys("Stoneham Ford_test"+ Integer.toString(incrementCounter()));
+	     dealership_name.sendKeys(cname);
 	     Thread.sleep(1000);
 	     street_address.sendKeys("185 Main Street");
 	     Thread.sleep(1000);
@@ -188,7 +195,12 @@ public class CreateSupplierRecord extends AppDriver
 		
 	     Thread.sleep(1000);
 	     
-	     dealership_name.sendKeys("Stoneham Ford_test"+ Integer.toString(incrementCounter()));
+	     Thread.sleep(1000);
+	     Random r = new Random();
+		 char unique = (char)(r.nextInt(26) + 'A'); 
+		 String cname = ("YogiAutomationTest_" + unique);
+	     
+	     dealership_name.sendKeys(cname);
 	     Thread.sleep(1000);
 	     street_address.sendKeys("185 Main Street");
 	     Thread.sleep(1000);

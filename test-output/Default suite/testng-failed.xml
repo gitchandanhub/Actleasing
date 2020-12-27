@@ -5,7 +5,9 @@
     <classes>
       <class name="Execution.TestCaseExecution">
         <methods>
+          <include name="singlequoteconverttolead"/>
           <include name="singlequote"/>
+          <include name="singlequoteapproval"/>
           <include name="Initialize"/>
           <include name="close"/>
         </methods>

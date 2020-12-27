@@ -1,120 +1,232 @@
-21/12/2020 20:31:54 devpinoyLogger Username Entered [[ChromeDriver: chrome on WINDOWS (0c9dc2f9d2c40f275d951f2ca90d853d)] -> name: email]
-21/12/2020 20:31:58 devpinoyLogger Password Entered Welcome@2020
-21/12/2020 20:32:03 devpinoyLogger Login button clicked
-21/12/2020 20:32:08 devpinoyLogger Asset Tab is opened with all assets list
-21/12/2020 20:32:10 devpinoyLogger Latest Asset is opened from the Asset list
-21/12/2020 20:32:12 devpinoyLogger Custom Value is added is Customer Custom form/Field 1
-21/12/2020 20:32:15 devpinoyLogger Custom Value is added is Customer Custom form/Field 2
-21/12/2020 20:32:17 devpinoyLogger Custom Value is added is Customer Custom form/Field 3
-21/12/2020 20:32:19 devpinoyLogger Owner Name is added in Registered owner info
-21/12/2020 20:32:22 devpinoyLogger Owner Email is added in Registered owner info
-21/12/2020 20:32:24 devpinoyLogger Owner Address1 is added in Registered owner info
-21/12/2020 20:32:26 devpinoyLogger Owner Address2 is added in Registered owner info
-21/12/2020 20:32:28 devpinoyLogger Owner City is added in Registered owner info
-21/12/2020 20:32:30 devpinoyLogger Owner State option is opened in Registered owner info
-21/12/2020 20:32:33 devpinoyLogger Owner zip is added in Registered owner info
-21/12/2020 20:32:35 devpinoyLogger Asset Vehicle data is saved
-21/12/2020 20:32:38 devpinoyLogger Asset Registration tab is opened
-21/12/2020 20:32:40 devpinoyLogger Title Number is added in Asset registration form
-21/12/2020 20:32:42 devpinoyLogger Title State options opened
-21/12/2020 20:32:44 devpinoyLogger Title State is select as WY
-21/12/2020 20:32:47 devpinoyLogger Paper/Elec is added in Registration  form
-21/12/2020 20:32:49 devpinoyLogger Assets Registration  form is saved
-21/12/2020 20:32:52 devpinoyLogger Clicked on Show List button and All asset list is opened
-21/12/2020 20:32:54 devpinoyLogger Quotation Tab clicked
-21/12/2020 20:32:55 devpinoyLogger Quotation Selection options opened
-21/12/2020 20:32:56 devpinoyLogger Single Quote Option Selected
-21/12/2020 20:32:58 devpinoyLogger Create Single Quote form is opened
-21/12/2020 20:32:59 devpinoyLogger Salesperson option opened
-21/12/2020 20:33:00 devpinoyLogger Salesperson Admin is Selected from options
-21/12/2020 20:33:01 devpinoyLogger Customer Number Is Entered
-21/12/2020 20:33:04 devpinoyLogger Customer Name is enteredYogiAutomationTest_K
-21/12/2020 20:33:09 devpinoyLogger Quotation Tab clicked for refresh
-21/12/2020 20:33:12 devpinoyLogger Quotation Active prospect is opened
-21/12/2020 20:33:14 devpinoyLogger Newly created Quotation is opened in Edit Mode for approval
-21/12/2020 20:33:17 devpinoyLogger Newly created Quotation is now Approved
-21/12/2020 20:33:19 devpinoyLogger Clicked on  Quotation tab displayed
-21/12/2020 20:33:20 devpinoyLogger Again Active prospect is opened for convert to lease for above approved Single quote
-21/12/2020 20:33:23 devpinoyLogger Edit Above Approved Single quote for conversion to lease
-21/12/2020 20:33:25 devpinoyLogger Convert to lease confirmation popup opened with yes and no option
-21/12/2020 20:33:27 devpinoyLogger Above approved Single Quote is now converted to Lease successfully
-21/12/2020 20:33:34 devpinoyLogger Clicked on Lease Tab and all lease List are loaded
-21/12/2020 20:33:37 devpinoyLogger Latest converted Lease is opened with data sheet opened with unit no=1267-00-0001
-21/12/2020 20:33:41 devpinoyLogger Lease Accounting sheet is opened
-21/12/2020 20:33:43 devpinoyLogger Lease Bank sheet is opened
-21/12/2020 20:33:46 devpinoyLogger Moves Hover over Bule Hills Bank and selected from bank list
-21/12/2020 20:33:49 devpinoyLogger Bank Sheet is save with Bule Hills bank option
-21/12/2020 20:33:51 devpinoyLogger Lease schedule A tab is opened
-21/12/2020 20:33:54 devpinoyLogger Schedule A upload doc button clicked
-21/12/2020 20:33:56 devpinoyLogger Clicked on choose file button 
-21/12/2020 20:34:00 devpinoyLogger Selected file is uploaded for Schedule A lease tab
-21/12/2020 20:34:03 devpinoyLogger Lease COI sheet is opened
-21/12/2020 20:34:05 devpinoyLogger COI insurance certificate upload doc button clicked
-21/12/2020 20:34:07 devpinoyLogger Clicked on choose file button 
-21/12/2020 20:34:11 devpinoyLogger Selected file is uploaded for COI (Insurance certi) lease tab
-21/12/2020 20:34:13 devpinoyLogger OpenRegandTitle Sheet is opened
-21/12/2020 20:34:16 devpinoyLogger Lease Bank Agreement Sheet is opened
-21/12/2020 20:34:18 devpinoyLogger Bank agreement upload doc button clicked
-21/12/2020 20:34:20 devpinoyLogger Clicked on choose file button 
-21/12/2020 20:34:24 devpinoyLogger Bank agreement successfully submitted
-21/12/2020 20:34:26 devpinoyLogger Lease Bill Of Sale Sheet is opened
-21/12/2020 20:34:28 devpinoyLogger Lease Bill Of Sale Sheet is opened
-21/12/2020 20:34:30 devpinoyLogger Clicked on choose file button 
-21/12/2020 20:34:34 devpinoyLogger Bill of sale submitted successfully
-21/12/2020 20:34:37 devpinoyLogger OpenSOLAccounting Sheet is opened
-21/12/2020 20:34:39 devpinoyLogger click on SOLAccounting
-21/12/2020 20:34:41 devpinoyLogger Clicked on choose file button 
-21/12/2020 20:34:45 devpinoyLogger SOLAccounting submitted successfully
-21/12/2020 20:34:47 devpinoyLogger Lease Accounting Sheet is opened
-21/12/2020 20:34:49 devpinoyLogger End of sale upload doc button clicked
-21/12/2020 20:34:51 devpinoyLogger Clicked on choose file button 
-21/12/2020 20:34:55 devpinoyLogger Selected file is uploaded for End Of Sale of lease tab
-21/12/2020 20:34:57 devpinoyLogger Clicked on powerof attorney
-21/12/2020 20:34:57 devpinoyLogger Quotation Tab clicked
-21/12/2020 20:35:00 devpinoyLogger Create New button clicked
-21/12/2020 20:35:04 devpinoyLogger Create Multiple Quote For Different Vehicle Radio button selected
-21/12/2020 20:35:08 devpinoyLogger clicked on Submit Button
-21/12/2020 20:35:09 devpinoyLogger Customer Number Is Entered
-21/12/2020 20:35:12 devpinoyLogger Customer Name is enteredVikramTest_L
-21/12/2020 20:35:13 devpinoyLogger Customer Address is added
-21/12/2020 20:35:15 devpinoyLogger Customer Address2 is added
-21/12/2020 20:35:16 devpinoyLogger Customer City is added
-21/12/2020 20:35:17 devpinoyLogger Customer Zip is added
-21/12/2020 20:35:21 devpinoyLogger Salestax sate selected
-21/12/2020 20:35:21 devpinoyLogger entered sales tax rate
-21/12/2020 20:35:25 devpinoyLogger Customer DelAcqDate  is added
-21/12/2020 20:35:26 devpinoyLogger Lease Type selected
-21/12/2020 20:35:26 devpinoyLogger Lease Type selected
-21/12/2020 20:35:26 devpinoyLogger Maintenance Type selected
-21/12/2020 20:35:29 devpinoyLogger year Type selected
-21/12/2020 20:35:29 devpinoyLogger make Type selected
-21/12/2020 20:35:29 devpinoyLogger model Type selected
-21/12/2020 20:35:30 devpinoyLogger year Type selected
-21/12/2020 20:35:31 devpinoyLogger make Type selected
-21/12/2020 20:35:31 devpinoyLogger model Type selected
-21/12/2020 20:35:35 devpinoyLogger year Type selected
-21/12/2020 20:35:35 devpinoyLogger make Type selected
-21/12/2020 20:35:36 devpinoyLogger model Type selected
-21/12/2020 20:35:44 devpinoyLogger Factory MSRP is added $20000
-21/12/2020 20:35:46 devpinoyLogger Additional MSRP is added $200
-21/12/2020 20:35:47 devpinoyLogger Dealer Cost is added $20100
-21/12/2020 20:35:49 devpinoyLogger Bank Fee is added $10
-21/12/2020 20:35:51 devpinoyLogger Residual Value is added $200
-21/12/2020 20:35:53 devpinoyLogger Factory MSRP is added $20000
-21/12/2020 20:35:54 devpinoyLogger Additional MSRP is added $200
-21/12/2020 20:35:56 devpinoyLogger Dealer Cost is added $20100
-21/12/2020 20:35:58 devpinoyLogger Bank Fee is added $10
-21/12/2020 20:36:00 devpinoyLogger Residual Value is added $200
-21/12/2020 20:36:01 devpinoyLogger Factory MSRP is added $20000
-21/12/2020 20:36:03 devpinoyLogger Additional MSRP is added $200
-21/12/2020 20:36:05 devpinoyLogger Dealer Cost is added $20100
-21/12/2020 20:36:07 devpinoyLogger Bank Fee is added $10
-21/12/2020 20:36:09 devpinoyLogger Residual Value is added $200
-21/12/2020 20:36:11 devpinoyLogger Customer custom Note is Added 
-21/12/2020 20:36:17 devpinoyLogger muiltiple Quotes are Successfully created and Saved 
-21/12/2020 20:36:19 devpinoyLogger Click on Lessee tab
-21/12/2020 20:36:20 devpinoyLogger Click on Createnewlist
-21/12/2020 20:36:34 devpinoyLogger Contact details  has been created successfully 
-21/12/2020 20:36:49 devpinoyLogger TaxExemption details filled successufully
-21/12/2020 20:36:49 devpinoyLogger Contact main details record  has been created successfully 
-21/12/2020 20:36:54 devpinoyLogger Contact main details record  has been created successfully 
+27/12/2020 21:36:35 devpinoyLogger Username Entered [[ChromeDriver: chrome on WINDOWS (a76daf1232c8cf6126e35d63e3195e95)] -> name: email]
+27/12/2020 21:36:39 devpinoyLogger Password Entered Welcome@2020
+27/12/2020 21:36:45 devpinoyLogger Login button clicked
+27/12/2020 21:36:50 devpinoyLogger Asset Tab is opened with all assets list
+27/12/2020 21:36:52 devpinoyLogger Latest Asset is opened from the Asset list
+27/12/2020 21:36:54 devpinoyLogger Custom Value is added is Customer Custom form/Field 1
+27/12/2020 21:36:57 devpinoyLogger Custom Value is added is Customer Custom form/Field 2
+27/12/2020 21:36:59 devpinoyLogger Custom Value is added is Customer Custom form/Field 3
+27/12/2020 21:37:01 devpinoyLogger Owner Name is added in Registered owner info
+27/12/2020 21:37:03 devpinoyLogger Owner Email is added in Registered owner info
+27/12/2020 21:37:06 devpinoyLogger Owner Address1 is added in Registered owner info
+27/12/2020 21:37:08 devpinoyLogger Owner Address2 is added in Registered owner info
+27/12/2020 21:37:10 devpinoyLogger Owner City is added in Registered owner info
+27/12/2020 21:37:12 devpinoyLogger Owner State option is opened in Registered owner info
+27/12/2020 21:37:15 devpinoyLogger Owner zip is added in Registered owner info
+27/12/2020 21:37:17 devpinoyLogger Asset Vehicle data is saved
+27/12/2020 21:37:20 devpinoyLogger Asset Registration tab is opened
+27/12/2020 21:37:22 devpinoyLogger Title Number is added in Asset registration form
+27/12/2020 21:37:24 devpinoyLogger Title State options opened
+27/12/2020 21:37:26 devpinoyLogger Title State is select as WY
+27/12/2020 21:37:28 devpinoyLogger Paper/Elec is added in Registration  form
+27/12/2020 21:37:31 devpinoyLogger Assets Registration  form is saved
+27/12/2020 21:37:34 devpinoyLogger Clicked on Show List button and All asset list is opened
+27/12/2020 21:37:39 devpinoyLogger Quotation Tab clicked
+27/12/2020 21:37:40 devpinoyLogger Quotation Selection options opened
+27/12/2020 21:37:41 devpinoyLogger Single Quote Option Selected
+27/12/2020 21:37:43 devpinoyLogger Create Single Quote form is opened
+27/12/2020 21:37:44 devpinoyLogger Salesperson option opened
+27/12/2020 21:37:45 devpinoyLogger Salesperson Admin is Selected from options
+27/12/2020 21:37:46 devpinoyLogger Customer Number Is Entered
+27/12/2020 21:37:50 devpinoyLogger Customer Name is enteredYogiAutomationTest_J
+27/12/2020 21:37:51 devpinoyLogger Customer Address is added
+27/12/2020 21:37:52 devpinoyLogger Customer Address2 is added
+27/12/2020 21:37:54 devpinoyLogger Customer City is added
+27/12/2020 21:37:55 devpinoyLogger State options is opened
+27/12/2020 21:37:56 devpinoyLogger Customer state is selected 
+27/12/2020 21:37:57 devpinoyLogger Customer Zip is added
+27/12/2020 21:37:58 devpinoyLogger Customer Contact name  is added
+27/12/2020 21:38:00 devpinoyLogger Customer Email  is added
+27/12/2020 21:38:01 devpinoyLogger Customer Cell Number  is added
+27/12/2020 21:38:02 devpinoyLogger Customer DelAcqDate  is added
+27/12/2020 21:38:03 devpinoyLogger Lease type options opened
+27/12/2020 21:38:04 devpinoyLogger Maintenance Type CD is selected
+27/12/2020 21:38:05 devpinoyLogger Customer Term options opened 
+27/12/2020 21:38:08 devpinoyLogger Customer Term 72 is selected
+27/12/2020 21:38:09 devpinoyLogger Sales Tax states options are opened
+27/12/2020 21:38:10 devpinoyLogger Sales Tax states is selected
+27/12/2020 21:38:11 devpinoyLogger Sales Tax Rate is Added as $50
+27/12/2020 21:38:12 devpinoyLogger Vehicle year is opened 
+27/12/2020 21:38:14 devpinoyLogger Vehicle year 2017 is selected
+27/12/2020 21:38:15 devpinoyLogger Vehicle Make options opened
+27/12/2020 21:38:16 devpinoyLogger Vehicle Make Chevrolet is selected
+27/12/2020 21:38:17 devpinoyLogger Vehicle model options opened
+27/12/2020 21:38:18 devpinoyLogger Vehicle model cruze is selected
+27/12/2020 21:38:19 devpinoyLogger Vehicle New/Used options opened
+27/12/2020 21:38:20 devpinoyLogger Vehicle Used options is selected
+27/12/2020 21:38:22 devpinoyLogger Vehicle color options opened
+27/12/2020 21:38:23 devpinoyLogger Vehicle black color is selected
+27/12/2020 21:38:24 devpinoyLogger Vehicle interior color options opened
+27/12/2020 21:38:25 devpinoyLogger Vehicle Red Interior color is selected
+27/12/2020 21:38:26 devpinoyLogger Vehicle Order Type options opened
+27/12/2020 21:38:27 devpinoyLogger Vehicle state options opened
+27/12/2020 21:38:29 devpinoyLogger Vehicle state WY is selected
+27/12/2020 21:38:30 devpinoyLogger Vehicle Plate Type options opened
+27/12/2020 21:38:31 devpinoyLogger Vehicle plate type  is selected
+27/12/2020 21:38:32 devpinoyLogger Factory MSRP is added $20000
+27/12/2020 21:38:33 devpinoyLogger Additional MSRP is added $200
+27/12/2020 21:38:35 devpinoyLogger Dealer Cost is added $20100
+27/12/2020 21:38:36 devpinoyLogger Bank Fee is added $10
+27/12/2020 21:38:37 devpinoyLogger Residual Value is added $200
+27/12/2020 21:38:39 devpinoyLogger Customer custom Note is Added 
+27/12/2020 21:38:45 devpinoyLogger Single Quote is Successfully created and Saved 
+27/12/2020 21:38:54 devpinoyLogger Quotation Tab clicked for refresh
+27/12/2020 21:38:57 devpinoyLogger Quotation Active prospect is opened
+27/12/2020 21:38:59 devpinoyLogger Newly created Quotation is opened in Edit Mode for approval
+27/12/2020 21:39:02 devpinoyLogger Newly created Quotation is now Approved
+27/12/2020 21:39:10 devpinoyLogger Clicked on  Quotation tab displayed
+27/12/2020 21:39:11 devpinoyLogger Again Active prospect is opened for convert to lease for above approved Single quote
+27/12/2020 21:39:14 devpinoyLogger Edit Above Approved Single quote for conversion to lease
+27/12/2020 21:39:16 devpinoyLogger Convert to lease confirmation popup opened with yes and no option
+27/12/2020 21:39:18 devpinoyLogger Above approved Single Quote is now converted to Lease successfully
+27/12/2020 21:39:31 devpinoyLogger Clicked on Lease Tab and all lease List are loaded
+27/12/2020 21:39:34 devpinoyLogger Latest converted Lease is opened with data sheet opened with unit no=1290-00-0001
+27/12/2020 21:39:37 devpinoyLogger Lease Accounting sheet is opened
+27/12/2020 21:39:40 devpinoyLogger Lease Bank sheet is opened
+27/12/2020 21:39:42 devpinoyLogger Moves Hover over Bule Hills Bank and selected from bank list
+27/12/2020 21:39:46 devpinoyLogger Bank Sheet is save with Bule Hills bank option
+27/12/2020 21:39:48 devpinoyLogger Lease schedule A tab is opened
+27/12/2020 21:39:51 devpinoyLogger Schedule A upload doc button clicked
+27/12/2020 21:39:53 devpinoyLogger Clicked on choose file button 
+27/12/2020 21:39:56 devpinoyLogger Selected file is uploaded for Schedule A lease tab
+27/12/2020 21:39:59 devpinoyLogger Lease COI sheet is opened
+27/12/2020 21:40:01 devpinoyLogger COI insurance certificate upload doc button clicked
+27/12/2020 21:40:03 devpinoyLogger Clicked on choose file button 
+27/12/2020 21:40:07 devpinoyLogger Selected file is uploaded for COI (Insurance certi) lease tab
+27/12/2020 21:40:10 devpinoyLogger OpenRegandTitle Sheet is opened
+27/12/2020 21:40:12 devpinoyLogger Lease Bank Agreement Sheet is opened
+27/12/2020 21:40:14 devpinoyLogger Bank agreement upload doc button clicked
+27/12/2020 21:40:16 devpinoyLogger Clicked on choose file button 
+27/12/2020 21:40:20 devpinoyLogger Bank agreement successfully submitted
+27/12/2020 21:40:22 devpinoyLogger Lease Bill Of Sale Sheet is opened
+27/12/2020 21:40:24 devpinoyLogger Lease Bill Of Sale Sheet is opened
+27/12/2020 21:40:26 devpinoyLogger Clicked on choose file button 
+27/12/2020 21:40:30 devpinoyLogger Bill of sale submitted successfully
+27/12/2020 21:40:30 devpinoyLogger Quotation Tab clicked
+27/12/2020 21:40:33 devpinoyLogger Create New button clicked
+27/12/2020 21:40:36 devpinoyLogger Create Multiple Quote For Different Vehicle Radio button selected
+27/12/2020 21:40:40 devpinoyLogger clicked on Submit Button
+27/12/2020 21:40:42 devpinoyLogger Customer Number Is Entered
+27/12/2020 21:40:45 devpinoyLogger Customer Name is enteredVikramTest_X
+27/12/2020 21:40:46 devpinoyLogger Customer Address is added
+27/12/2020 21:40:47 devpinoyLogger Customer Address2 is added
+27/12/2020 21:40:49 devpinoyLogger Customer City is added
+27/12/2020 21:40:50 devpinoyLogger Customer Zip is added
+27/12/2020 21:40:54 devpinoyLogger Salestax sate selected
+27/12/2020 21:40:54 devpinoyLogger entered sales tax rate
+27/12/2020 21:40:58 devpinoyLogger Customer DelAcqDate  is added
+27/12/2020 21:40:58 devpinoyLogger Lease Type selected
+27/12/2020 21:40:58 devpinoyLogger Lease Type selected
+27/12/2020 21:40:58 devpinoyLogger Maintenance Type selected
+27/12/2020 21:41:02 devpinoyLogger year Type selected
+27/12/2020 21:41:02 devpinoyLogger make Type selected
+27/12/2020 21:41:02 devpinoyLogger model Type selected
+27/12/2020 21:41:03 devpinoyLogger year Type selected
+27/12/2020 21:41:03 devpinoyLogger make Type selected
+27/12/2020 21:41:04 devpinoyLogger model Type selected
+27/12/2020 21:41:08 devpinoyLogger year Type selected
+27/12/2020 21:41:08 devpinoyLogger make Type selected
+27/12/2020 21:41:09 devpinoyLogger model Type selected
+27/12/2020 21:41:17 devpinoyLogger Factory MSRP is added $20000
+27/12/2020 21:41:19 devpinoyLogger Additional MSRP is added $200
+27/12/2020 21:41:20 devpinoyLogger Dealer Cost is added $20100
+27/12/2020 21:41:22 devpinoyLogger Bank Fee is added $10
+27/12/2020 21:41:24 devpinoyLogger Residual Value is added $200
+27/12/2020 21:41:26 devpinoyLogger Factory MSRP is added $20000
+27/12/2020 21:41:27 devpinoyLogger Additional MSRP is added $200
+27/12/2020 21:41:29 devpinoyLogger Dealer Cost is added $20100
+27/12/2020 21:41:31 devpinoyLogger Bank Fee is added $10
+27/12/2020 21:41:33 devpinoyLogger Residual Value is added $200
+27/12/2020 21:41:35 devpinoyLogger Factory MSRP is added $20000
+27/12/2020 21:41:37 devpinoyLogger Additional MSRP is added $200
+27/12/2020 21:41:38 devpinoyLogger Dealer Cost is added $20100
+27/12/2020 21:41:41 devpinoyLogger Bank Fee is added $10
+27/12/2020 21:41:42 devpinoyLogger Residual Value is added $200
+27/12/2020 21:41:44 devpinoyLogger Customer custom Note is Added 
+27/12/2020 21:41:50 devpinoyLogger muiltiple Quotes are Successfully created and Saved 
+27/12/2020 21:41:56 devpinoyLogger Click on Lessee tab
+27/12/2020 21:41:57 devpinoyLogger Click on Createnewlist
+27/12/2020 21:42:11 devpinoyLogger Contact details  has been created successfully 
+27/12/2020 21:42:26 devpinoyLogger TaxExemption details filled successufully
+27/12/2020 21:42:26 devpinoyLogger Contact main details record  has been created successfully 
+27/12/2020 21:42:31 devpinoyLogger Contact main details record  has been created successfully 
+27/12/2020 21:42:37 devpinoyLogger Click on Supplierstab tab
+27/12/2020 21:42:38 devpinoyLogger Click on Createnewlist
+27/12/2020 21:43:02 devpinoyLogger Auto Supplier Record has been created successfully 
+27/12/2020 21:43:03 devpinoyLogger Click on Createnewlist
+27/12/2020 21:43:26 devpinoyLogger Equipment  Supplier Record  has been created successfully 
+27/12/2020 21:43:27 devpinoyLogger Click on Createnewlist
+27/12/2020 21:43:51 devpinoyLogger Marine Supplier Record has been created successfully 
+27/12/2020 21:44:00 devpinoyLogger Click on Buyertab 
+27/12/2020 21:44:02 devpinoyLogger Click on Createnewlist
+27/12/2020 21:44:24 devpinoyLogger Auto Buyer record successfully created
+27/12/2020 21:44:47 devpinoyLogger EuipmentBuyerdetails record successfully created
+27/12/2020 21:45:10 devpinoyLogger MarineBuyerdetails record successfully created
+27/12/2020 21:45:10 devpinoyLogger Quotation Tab clicked
+27/12/2020 21:45:13 devpinoyLogger Create New button clicked
+27/12/2020 21:45:17 devpinoyLogger Create Multiple Quote For Different Vehicle Radio button selected
+27/12/2020 21:45:20 devpinoyLogger clicked on Submit Button
+27/12/2020 21:45:22 devpinoyLogger Customer Number Is Entered
+27/12/2020 21:45:25 devpinoyLogger Customer Name is enteredVikramTest_A
+27/12/2020 21:45:26 devpinoyLogger Customer Address is added
+27/12/2020 21:45:28 devpinoyLogger Customer Address2 is added
+27/12/2020 21:45:29 devpinoyLogger Customer City is added
+27/12/2020 21:45:30 devpinoyLogger Customer Zip is added
+27/12/2020 21:45:34 devpinoyLogger Salestax sate selected
+27/12/2020 21:45:34 devpinoyLogger entered sales tax rate
+27/12/2020 21:45:39 devpinoyLogger Customer DelAcqDate  is added
+27/12/2020 21:45:39 devpinoyLogger Lease Type selected
+27/12/2020 21:45:39 devpinoyLogger Lease Type selected
+27/12/2020 21:45:39 devpinoyLogger Maintenance Type selected
+27/12/2020 21:45:42 devpinoyLogger year Type selected
+27/12/2020 21:45:42 devpinoyLogger make Type selected
+27/12/2020 21:45:43 devpinoyLogger model Type selected
+27/12/2020 21:45:44 devpinoyLogger year Type selected
+27/12/2020 21:45:44 devpinoyLogger make Type selected
+27/12/2020 21:45:44 devpinoyLogger model Type selected
+27/12/2020 21:45:48 devpinoyLogger year Type selected
+27/12/2020 21:45:48 devpinoyLogger make Type selected
+27/12/2020 21:45:49 devpinoyLogger model Type selected
+27/12/2020 21:45:57 devpinoyLogger Factory MSRP is added $20000
+27/12/2020 21:45:59 devpinoyLogger Additional MSRP is added $200
+27/12/2020 21:46:01 devpinoyLogger Dealer Cost is added $20100
+27/12/2020 21:46:02 devpinoyLogger Bank Fee is added $10
+27/12/2020 21:46:04 devpinoyLogger Residual Value is added $200
+27/12/2020 21:46:06 devpinoyLogger Factory MSRP is added $20000
+27/12/2020 21:46:08 devpinoyLogger Additional MSRP is added $200
+27/12/2020 21:46:09 devpinoyLogger Dealer Cost is added $20100
+27/12/2020 21:46:11 devpinoyLogger Bank Fee is added $10
+27/12/2020 21:46:13 devpinoyLogger Residual Value is added $200
+27/12/2020 21:46:15 devpinoyLogger Factory MSRP is added $20000
+27/12/2020 21:46:17 devpinoyLogger Additional MSRP is added $200
+27/12/2020 21:46:19 devpinoyLogger Dealer Cost is added $20100
+27/12/2020 21:46:21 devpinoyLogger Bank Fee is added $10
+27/12/2020 21:46:22 devpinoyLogger Residual Value is added $200
+27/12/2020 21:46:24 devpinoyLogger Customer custom Note is Added 
+27/12/2020 21:46:31 devpinoyLogger muiltiple Quotes for independent vechicle are Successfully created and Saved 
+27/12/2020 21:46:40 devpinoyLogger Quotation Tab clicked
+27/12/2020 21:46:44 devpinoyLogger Quotation Selection options opened
+27/12/2020 21:46:48 devpinoyLogger Single Quote Option Selected
+27/12/2020 21:46:54 devpinoyLogger Create Single Quote form is opened
+27/12/2020 21:46:55 devpinoyLogger Customer Number Is Entered
+27/12/2020 21:46:58 devpinoyLogger Customer Name is enteredVikramTest_W
+27/12/2020 21:46:59 devpinoyLogger Customer Address is added
+27/12/2020 21:47:01 devpinoyLogger Customer Address2 is added
+27/12/2020 21:47:02 devpinoyLogger Customer City is added
+27/12/2020 21:47:03 devpinoyLogger Customer Zip is added
+27/12/2020 21:47:07 devpinoyLogger Salestax sate selected
+27/12/2020 21:47:07 devpinoyLogger entered sales tax rate
+27/12/2020 21:47:12 devpinoyLogger Customer DelAcqDate  is added
+27/12/2020 21:47:12 devpinoyLogger Lease Type selected
+27/12/2020 21:47:12 devpinoyLogger Lease Type selected
+27/12/2020 21:47:12 devpinoyLogger Maintenance Type selected
+27/12/2020 21:47:15 devpinoyLogger year Type selected
+27/12/2020 21:47:16 devpinoyLogger make Type selected
+27/12/2020 21:47:17 devpinoyLogger model Type selected
+27/12/2020 21:47:34 devpinoyLogger Factory MSRP is added $20000
+27/12/2020 21:47:36 devpinoyLogger Additional MSRP is added $200
+27/12/2020 21:47:37 devpinoyLogger Dealer Cost is added $20100
+27/12/2020 21:47:39 devpinoyLogger Bank Fee is added $10
+27/12/2020 21:47:41 devpinoyLogger Residual Value is added $200
+27/12/2020 21:47:43 devpinoyLogger Customer custom Note is Added 
+27/12/2020 21:47:49 devpinoyLogger muiltiple Quotes for independent vechicle are Successfully created and Saved 

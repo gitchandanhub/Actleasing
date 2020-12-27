@@ -3,6 +3,7 @@ package Pages;
 import java.sql.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Random;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -94,9 +95,13 @@ public class CreateLesseeRecord extends AppDriver
 		Customertype.click();
 	     Thread.sleep(1000);
 	     
-	     BusinessName.sendKeys("Travelagency"+ Integer.toString(incrementCounter()));
+	     Random r = new Random();
+		 char unique = (char)(r.nextInt(26) + 'A'); 
+		 String cname = ("YogiAutomationTest_" + unique);
+	     
+	     BusinessName.sendKeys(cname);
 	     Thread.sleep(1000);
-	     dba_name.sendKeys("Travelagency1"+ Integer.toString(incrementCounter()));
+	     dba_name.sendKeys(cname);
 	     Thread.sleep(1000);
 	     business_email.sendKeys("test@test.com");
 	     Thread.sleep(1000);
